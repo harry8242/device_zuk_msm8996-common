@@ -418,6 +418,8 @@
         <item>0x420</item> <!-- CPUBOOST MIN_FREQ resource value -->
     </integer-array>
 
+    <!-- True if the device supports Sustained Performance Mode-->
+    <bool name="config_sustainedPerformanceModeSupported">true</bool>
 
     <!-- Should the pinner service pin the Camera application? -->
     <bool name="config_pinnerCameraApp">true</bool>
