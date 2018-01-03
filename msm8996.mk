@@ -124,7 +124,10 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libtinyxml
 
-#sax
+# Doze mode
+PRODUCT_PACKAGES += \
+    ZukDoze
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:system/etc/calib.cfg
 
