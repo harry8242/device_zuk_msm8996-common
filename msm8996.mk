@@ -261,6 +261,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libprotobuf-cpp-full
 
+# Thermal packages
+PRODUCT_PACKAGES += \
+    thermal.zuk
+
 # TimeKeep
 PRODUCT_PACKAGES += \
     timekeep \
@@ -276,7 +280,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Offline charging
 ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.enable_boot_charger_mode=1 
+    ro.enable_boot_charger_mode=1
 
 # FlipFlap
 PRODUCT_PACKAGES += \
