@@ -286,6 +286,10 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     FlipFlap
 
+# VR packages
+PRODUCT_PACKAGES += \
+    vr.zuk
+
 # Wifi
 PRODUCT_PACKAGES += \
     ipacm \
