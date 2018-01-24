@@ -114,7 +114,6 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES := true
 
 # Charger
-WITH_CM_CHARGER := false
 BOARD_HEALTHD_CUSTOM_CHARGER_RES := $(VENDOR_PATH)/charger/images
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGING_CMDLINE_NAME  := "androidboot.mode"
@@ -126,11 +125,7 @@ GREEN_LED_PATH := "/sys/class/leds/led:rgb_green/brightness"
 BLUE_LED_PATH  := "/sys/class/leds/led:rgb_blue/brightness"
 
 # CM Hardware
-BOARD_HARDWARE_CLASS += $(VENDOR_PATH)/cmhw
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw
 
 # CNE and DPM
 BOARD_USES_QCNE := true
